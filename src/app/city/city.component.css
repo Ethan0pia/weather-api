@@ -1,0 +1,68 @@
+.div{
+    background-color: mediumvioletred;
+    color: #0fff55;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    border: 1px solid black;
+}
+
+.center{
+    text-align: center;
+}
+
+div{
+    width: 435px;
+    margin-left:calc(50% - 218px);
+    margin-top:110px;
+}
+
+span{
+    color: yellow;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    font-weight: bold;
+}
+
+table{
+    border: 2px black solid;
+    width: 437px;
+}
+
+button, select, input{
+    background-color: mediumvioletred;
+    color:yellow;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+select{
+    width: 100px;
+}
+
+input{
+    border: 1px solid black;
+}
+
+.rightAlign{
+    text-align: right;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: mediumvioletred;
+    color: white;
+    text-shadow: 0 0 3px greenyellow, 0 0 5px green;
+}
+
+tr:nth-child(odd) {
+    background-image: url("../../assets/circle.gif");
+    color: greenyellow;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+img{
+    text-align: center;
+    padding: 0 0 0 35%;
+}

@@ -1,0 +1,31 @@
+<div class="div">
+  <span>City Name:<input [(ngModel)]="city" (keydown)="onKey($event)"></span>  
+  <select [(ngModel)]="units">
+    <option value="Imperial">Fahrenheit</option>
+    <option value="Metric">Celsius</option>
+    <option value ="Kelvin">Kelvin</option>
+  </select>
+  <img *ngIf="loading" src="../../assets/loading.gif">
+  <table *ngIf="weather">
+    <tr>
+      <th class="center">{{weather.name}}</th>
+      <th>{{weather.weather}}</th>
+    </tr>
+    <tr *ngIf="weather['temp']">
+      <td class=rightAlign>Current Temp:</td>
+      <td>{{weather.temp}}</td>
+    </tr>
+    <tr *ngIf="weather['temp']">
+      <td class=rightAlign>High:</td>
+      <td>{{weather.high}}</td>
+    </tr>
+    <tr *ngIf="weather['temp']">
+        <td class=rightAlign>Low:</td>
+        <td>{{weather.low}}</td>
+    </tr>
+    <tr *ngIf="weather['temp']">
+        <td class=rightAlign>Humidity:</td>
+        <td>{{weather.humidity}}</td>
+    </tr>
+  </table>
+</div>

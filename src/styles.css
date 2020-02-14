@@ -1,0 +1,44 @@
+ 
+body{
+    background-image: url("./assets/uglyBg.jpg");
+}
+
+.banner{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-image: url("./assets/baby.gif");
+    height: 100px;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-image: url("./assets/baby.gif");
+    height: 100px;
+}
+
+.left{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    text-align: center;
+    background-image: url("./assets/baby.gif");
+    width: 100px;
+}
+
+.right{
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    text-align: center;
+    background-image: url("./assets/baby.gif");
+    width: 100px;
+}
